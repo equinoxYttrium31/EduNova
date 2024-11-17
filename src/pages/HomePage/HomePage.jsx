@@ -1,5 +1,5 @@
 import Navigation_Bar from "../../components/navigation_bar/navigation_bar";
-
+import "./HomePage.css";
 export default function HomePage() {
   return (
     <div className="homepage_main_container">
