@@ -23,7 +23,7 @@
 .navigations_content {
   display: flex;
   align-items: center;
-  width: 50%;
+  width: 47%;
   justify-content: space-between;
 }
 
@@ -76,11 +76,11 @@
 /*Hover Effects*/
 .navigation_links:hover {
   color: var(--primary-color);
-  cursor: url("../../assets/icons/mouse.png") 16 16, auto;
+  cursor: pointer;
 }
 
 .navigation_button:hover {
   background-color: var(--primary-color);
   color: whitesmoke;
-  cursor: url("../../assets/icons/mouse.png") 16 16, auto;
+  cursor: pointer;
 }

@@ -13,7 +13,7 @@ export default function Navigation_Bar() {
         <div className="navigations_content">
           <div className="navigation_controls_container">
             <ul className="navigation_controls">
-              <li className="navigation_links">Homepage</li>
+              <li className="navigation_links">Home</li>
               <li className="navigation_links">About Us</li>
               <li className="navigation_links">Contact Us</li>
             </ul>

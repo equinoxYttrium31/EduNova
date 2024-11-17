@@ -1,0 +1,131 @@
+.hero_main_container {
+  display: flex;
+  align-items: start;
+  padding: 11.5rem 5rem;
+  height: fit-content;
+  gap: 22rem;
+}
+
+.headlines_container {
+  width: 50%;
+  text-align: center;
+}
+
+.headline {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  gap: 0.2rem;
+  flex-direction: row;
+  font-family: "Goldman", sans-serif;
+}
+
+.with {
+  position: relative;
+  font-size: 1.5em;
+  text-wrap: nowrap;
+  font-weight: bold;
+  color: var(--tertiary-color);
+  margin-top: 10px;
+}
+
+.subheadline {
+  font-size: 1.2em;
+  font-family: "Saira";
+  margin: 0;
+  text-align: justify;
+  width: 115%;
+}
+
+.word_1,
+.word_2,
+.word_3 {
+  font-size: 1.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  margin-top: 0.5rem;
+  opacity: 0; /* Hide by default */
+  visibility: hidden;
+  border-right: var(--primary-color) 2px solid;
+  width: 0; /* Initially width 0 for typing effect */
+  animation-timing-function: steps(10, end);
+}
+
+.word_1.active {
+  opacity: 1;
+  visibility: visible;
+  animation: typing1 2s steps(6) forwards, blink 1s step-end infinite;
+}
+.word_2.active {
+  opacity: 1;
+  visibility: visible;
+  animation: typing2 2s steps(5) forwards, blink 1s step-end infinite;
+}
+.word_3.active {
+  opacity: 1;
+  visibility: visible;
+  animation: typing3 2s steps(7) forwards, blink 1s step-end infinite;
+}
+
+.cta_buttons {
+  margin-top: 15rem;
+}
+
+.cta_button {
+  all: unset;
+  padding: 0.5rem 2rem;
+  font-family: "saira";
+  color: whitesmoke;
+  background-color: var(--primary-color);
+  border: var(--primary-color) 2px solid;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta_button:hover {
+  background-color: transparent;
+  border-radius: 2rem;
+  color: var(--tertiary-color);
+  box-shadow: 2px 2px 5px var(--tertiary-color);
+  cursor: pointer;
+}
+
+/* Typing effect */
+@keyframes typing1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 32.5%;
+  }
+}
+
+@keyframes typing2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 32.5%;
+  }
+}
+
+@keyframes typing3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 38%;
+  }
+}
+
+/* Blinking caret effect */
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

@@ -1,5 +1,7 @@
 import Navigation_Bar from "../../components/navigation_bar/navigation_bar";
+import Hero from "../../components/hero_section/Hero";
 import "./HomePage.css";
+
 export default function HomePage() {
   return (
     <div className="homepage_main_container">
@@ -7,7 +9,9 @@ export default function HomePage() {
       <div className="header">
         <Navigation_Bar />
       </div>
-      <div className="landing_page">Landing Page</div>
+      <div className="landing_page">
+        <Hero />
+      </div>
     </div>
   );
 }
