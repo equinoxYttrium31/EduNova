@@ -49,10 +49,11 @@ To run EduNova locally, follow these steps:
 Your project should now be running at http://localhost:5173
 
 ## Usage
-Describe how to use the project or provide information on how users can interact with the website.
+Once the server is running, open your browser and visit http://localhost:5173 to use EduNova. The website will load the educational games, and you can:
 ```markdown
-## Usage
-After starting the server, go to the URL displayed in the terminal (e.g., `http://localhost:3000`) to access the educational games and quizzes. Users can log in, play games, track progress, and explore various subjects.
+-Sign in for personalized features.
+-Start a quiz or game from the available subjects.
+-Track your scores and see how you rank on the leaderboard.
 ```
 
 ---
