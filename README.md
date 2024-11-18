@@ -80,9 +80,9 @@ Contributions are welcome! If you find a bug or have an idea for a new feature, 
 ---
 
 ## Acknowledgments
-**React** for providing the foundation for building a fast and scalable UI.
-**Vite** for making the development environment fast and efficient.
-**All contributors** who help make EduNova a better platform for learning!
+- **React** for providing the foundation for building a fast and scalable UI.
+- **Vite** for making the development environment fast and efficient.
+- **All contributors** who help make EduNova a better platform for learning!
 
 ## Copyright
 
