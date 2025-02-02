@@ -1,5 +1,6 @@
 import "../CSS/components/NavigationBar.style.css";
 import { EduNova } from "../assets/imports/logo.imports";
+import { Link } from 'react-router-dom';
 
 function NavigationBar() {
 	return (
@@ -14,19 +15,19 @@ function NavigationBar() {
 			<div className="navbar_container_links">
 				<ul className="navbar_links">
 					<li className="navbar_links_item">
-						<a href="/" className="item li-links">
+						<Link to="/" className="item li-links">
 							Home
-						</a>
+						</Link>
 					</li>
 					<li className="navbar_links_item">
-						<a href="/" className="item li-links">
+						<Link to="/about" className="item li-links">
 							About
-						</a>
+						</Link>
 					</li>
 					<li className="navbar_links_item">
-						<a href="/" className="item li-links">
+						<Link href="/" className="item li-links">
 							Contact Us
-						</a>
+						</Link>
 					</li>
 				</ul>
 			</div>

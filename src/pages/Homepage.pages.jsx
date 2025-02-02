@@ -1,13 +1,9 @@
-import "../CSS/pages/Homepage.style.css";
-import NavigationBar from "../components/NavigationBar.components";
+import '../CSS/pages/Homepage.style.css';
 
 function Homepage() {
 	return (
 		<div className="main_container">
-			{/**This will be the rootpage */}
-			<section id="main_navigation_bar">
-				<NavigationBar />
-			</section>
+			<section id="hero-section"></section>
 		</div>
 	);
 }
