@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Zen+Dots&display=swap');
+/*global css for custom classes*/
+:root{
+    --background-color: #578FCA;
+    --text-color: #D1F8EF;
+    --light-button: #A1E3F9;
+    --dark-button: #3674B5;
+}
+
+button{
+    all: unset;
+    text-align: center;
+    height: 2rem;
+    width: 7rem;
+    border-radius: .5rem;
+    transition: all .3s ease-in-out;
+}
+
+.li-links{
+    all: unset;
+    transition: all .3s ease-in-out;
+}
+
+.btn-dark{
+    border: var(--dark-button) solid 2px;
+    background-color: var(--dark-button);
+}
+
+.btn-dark:hover{
+    cursor: pointer;
+    color: var(--dark-button);
+    border: var(--light-button) solid 2px;
+    background-color: var(--light-button);
+}
+
+.btn-light{
+    color: var(--dark-button);
+    border: var(--light-button) solid 2px;
+    background-color: var(--light-button);
+}
+
+.btn-light:hover{
+    cursor: pointer;
+    color: var(--text-color);
+    border: var(--dark-button) solid 2px;
+    background-color: var(--dark-button);
+}
+
+.btn-light-outline{
+    border: var(--light-button) solid 2px;
+    background-color: transparent;
+}
+
+.btn-dark-outline{
+    border: var(--dark-button) solid 2px;
+    background-color: transparent;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0.5rem 5rem;
+    font-family: inter;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}

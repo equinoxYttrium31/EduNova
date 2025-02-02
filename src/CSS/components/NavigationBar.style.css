@@ -1,0 +1,33 @@
+.navbar_container_main{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.navbar_container_logo{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.navbar_logo_img{
+    height: 5rem;
+}
+
+.navbar_links{
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+}
+
+.item:hover{
+    color: var(--dark-button);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbar_container_buttons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
