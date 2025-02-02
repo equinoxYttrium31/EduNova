@@ -1,5 +1,5 @@
 import NavigationBar from '../components/NavigationBar.components';
-import Homepage from '../pages/homepage.pages';
+import Homepage from '../pages/Homepage.pages';
 import About from '../pages/About.pages';
 import { Route, Routes } from 'react-router-dom';
 
@@ -13,6 +13,7 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />
+				<Route path="/contact-us" element={''} />
 			</Routes>
 		</div>
 	);

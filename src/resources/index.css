@@ -52,11 +52,23 @@ button{
     background-color: transparent;
 }
 
+.btn-light-outline:hover{
+    color: var(--dark-button);
+    cursor: pointer;
+    border: var(--light-button) solid 2px;
+    background-color: var(--light-button);
+}
+
 .btn-dark-outline{
     border: var(--dark-button) solid 2px;
     background-color: transparent;
 }
 
+.btn-dark-outline:hover{
+    cursor: pointer;
+    border: var(--dark-button) solid 2px;
+    background-color: var(--dark-button);
+}
 
 
 body{

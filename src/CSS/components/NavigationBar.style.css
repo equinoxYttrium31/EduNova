@@ -26,6 +26,10 @@
     cursor: pointer;
 }
 
+.navbar_logo_text{
+    font-family: "Zen Dots";
+}
+
 .navbar_container_buttons{
     display: flex;
     justify-content: center;

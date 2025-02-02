@@ -1,5 +1,5 @@
 import '../CSS/components/NotFound.style.css';
-import { not_found_logo } from '../assets/imports/logo.imports';
+import Logos from '../assets/imports/logo.imports';
 import { Link } from 'react-router-dom';
 
 function NotFound() {
@@ -7,7 +7,7 @@ function NotFound() {
 		<div className="not_container_found">
 			<div className="not_found_container_image">
 				<img
-					src={not_found_logo}
+					src={Logos.not_found_logo}
 					alt="box without content"
 					className="not_found_image"
 				/>

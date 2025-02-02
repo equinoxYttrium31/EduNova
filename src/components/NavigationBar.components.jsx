@@ -1,5 +1,5 @@
 import "../CSS/components/NavigationBar.style.css";
-import { EduNova } from "../assets/imports/logo.imports";
+import Logos from '../assets/imports/logo.imports';
 import { Link } from 'react-router-dom';
 
 function NavigationBar() {
@@ -7,10 +7,11 @@ function NavigationBar() {
 		<div className="navbar_container_main">
 			<div className="navbar_container_logo">
 				<img
-					src={EduNova}
+					src={Logos.EduNova}
 					alt="edunova logo"
 					className="navbar_logo_img"
 				/>
+				<h1 className="navbar_logo_text">EduNova</h1>
 			</div>
 			<div className="navbar_container_links">
 				<ul className="navbar_links">
@@ -25,7 +26,7 @@ function NavigationBar() {
 						</Link>
 					</li>
 					<li className="navbar_links_item">
-						<Link href="/" className="item li-links">
+						<Link href="/contact-us" className="item li-links">
 							Contact Us
 						</Link>
 					</li>
